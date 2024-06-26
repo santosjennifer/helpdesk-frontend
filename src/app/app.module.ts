@@ -47,7 +47,6 @@ import { ChamadoUpdateComponent } from './components/chamado/chamado-update/cham
 import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-read.component';
 import { loadingInterceptor } from './interceptors/loading.interceptor';
 import { LoadingComponent } from './components/loading/loading.component';
-import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -68,8 +67,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ChamadoCreateComponent,
     ChamadoUpdateComponent,
     ChamadoReadComponent,
-    LoadingComponent,
-    FooterComponent
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
