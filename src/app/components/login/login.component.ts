@@ -30,10 +30,19 @@ export class LoginComponent implements OnInit {
   logar() {
     this.service.authenticate(this.creds).subscribe({
       next: (resposta) => {
-        this.service.successfulLogin(resposta.headers.get('Authorization').substring(7));
-        this.router.navigate(['']);
+        const authHeader = resposta.headers.get('Authorization');
+        console.log('Resposta completa:', resposta);
+        if (authHeader) {
+          console.log('Authorization Header:', authHeader);
+          this.service.successfulLogin(authHeader.substring(7));
+          this.router.navigate(['']);
+        } else {
+          console.error('Authorization header is missing');
+          this.toast.error('Erro ao processar a resposta do servidor');
+        }
       },
-      error: () => {
+      error: (err) => {
+        console.error('Erro na autenticação:', err);
         this.toast.error('Usuário e/ou senha inválidos');
       }
     });
