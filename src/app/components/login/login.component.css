@@ -5,6 +5,7 @@
    align-items: center;
    justify-content: center;
    box-sizing: border-box;
+   padding: 1rem;
 }
 
 .form {
@@ -12,9 +13,11 @@
    max-width: 25rem;
    margin: auto auto 3rem auto;
    background-color: rgb(235, 235, 235);
-   padding: 1rem;
+   padding: 2rem;
    border-radius: 1rem;
    box-sizing: border-box;
+   margin: 0;
+   align-items: center;
 }
 
 h1 {
