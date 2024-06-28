@@ -2,7 +2,9 @@
 
 # Helpdesk
 
-Esse é um sistema para gerenciamento de chamados simulando um Help Desk. Desenvolvido em Angular 18 e Spring Boot 3.
+Esse é um sistema para gerenciamento de chamados simulando um Help Desk. 
+
+Desenvolvido em Angular 18 (front-end) e Spring Boot 3 (back-end).
 
 O projeto tem como objetivo principal abordar os conceitos de aplicações SPAs, Autenticação e Autorização com Tokens JWT e muito mais.
 
@@ -10,7 +12,9 @@ O sistema está rodando na nuvem sendo o front-end na Vercel e o back-end no Ren
 
 Link para acesso na [Vercel](https://helpdesk-six-lemon.vercel.app/).
 
-O código fonte do projeto back-end pode ser acessado aqui [helpdesk-backend](https://github.com/santosjennifer/helpdesk-backend).
+Domínio do backend no [Render](https://helpdesk-s2sy.onrender.com).
+
+Código fonte do projeto back-end [helpdesk-backend](https://github.com/santosjennifer/helpdesk-backend).
 
 ### Tecnologia:
 - Angular 18
