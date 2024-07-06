@@ -16,6 +16,21 @@ Domínio do backend no [Render](https://helpdesk-s2sy.onrender.com).
 
 Código fonte do projeto back-end [helpdesk-backend](https://github.com/santosjennifer/helpdesk-backend).
 
+### Login Page:
+![image](https://github.com/santosjennifer/helpdesk-frontend/assets/90192611/2c89acea-7d0a-497a-b045-b409581dce54)
+
+### Home Page:
+![image](https://github.com/santosjennifer/helpdesk-frontend/assets/90192611/c66e5fc7-e0ed-4deb-a942-82d0953def7a)
+
+### Listagem de Técnicos:
+![image](https://github.com/santosjennifer/helpdesk-frontend/assets/90192611/0efcbaa7-9713-45bc-9c7f-1d193cf82aa3)
+
+### Cadastro de Chamado:
+![image](https://github.com/santosjennifer/helpdesk-frontend/assets/90192611/a938aad1-77c6-4df6-b4ff-2be1f6269d1d)
+
+### Atualizar Cliente:
+![image](https://github.com/santosjennifer/helpdesk-frontend/assets/90192611/3a72cf4c-e563-42e7-8be6-7d6475c7b3f7)
+
 ### Tecnologia:
 - Angular 18
 - Angular CLI
